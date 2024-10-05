@@ -1,0 +1,14 @@
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\bin\Debug\net8.0\SimpleSequenceProblems.exe
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\bin\Debug\net8.0\SimpleSequenceProblems.deps.json
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\bin\Debug\net8.0\SimpleSequenceProblems.runtimeconfig.json
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\bin\Debug\net8.0\SimpleSequenceProblems.dll
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\bin\Debug\net8.0\SimpleSequenceProblems.pdb
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.AssemblyInfoInputs.cache
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.AssemblyInfo.cs
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.dll
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\refint\SimpleSequenceProblems.dll
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.pdb
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\SimpleSequenceProblems.genruntimeconfig.cache
+C:\Users\harsimrana\source\repos\Week3Day2Demo01\SimpleSequenceProblems\obj\Debug\net8.0\ref\SimpleSequenceProblems.dll

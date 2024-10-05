@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\source\\repos\\Week4Day2Demo01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10745EC6-C9DF-4404-AAB0-395FBFA1F0B4}|Week4Day2Demo02\\Week4Day2Demo02.csproj|c:\\users\\harsimrana\\source\\repos\\week4day2demo01\\week4day2demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10745EC6-C9DF-4404-AAB0-395FBFA1F0B4}|Week4Day2Demo02\\Week4Day2Demo02.csproj|solutionrelative:week4day2demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0538971-22CF-4B2E-8015-687B02F9C4B3}|Week4Day2Demo01\\Week4Day2Demo01.csproj|c:\\users\\harsimrana\\source\\repos\\week4day2demo01\\week4day2demo01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0538971-22CF-4B2E-8015-687B02F9C4B3}|Week4Day2Demo01\\Week4Day2Demo01.csproj|solutionrelative:week4day2demo01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week4Day2Demo01\\Week4Day2Demo02\\Program.cs",
+              "RelativeDocumentMoniker": "Week4Day2Demo02\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week4Day2Demo01\\Week4Day2Demo02\\Program.cs",
+              "RelativeToolTip": "Week4Day2Demo02\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:29:13.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\source\\repos\\Week4Day2Demo01\\Week4Day2Demo01\\Program.cs",
+              "RelativeDocumentMoniker": "Week4Day2Demo01\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\source\\repos\\Week4Day2Demo01\\Week4Day2Demo01\\Program.cs",
+              "RelativeToolTip": "Week4Day2Demo01\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T23:09:50.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

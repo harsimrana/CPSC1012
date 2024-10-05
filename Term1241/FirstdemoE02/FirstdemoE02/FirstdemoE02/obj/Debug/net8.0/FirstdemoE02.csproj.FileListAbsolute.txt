@@ -1,0 +1,14 @@
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\bin\Debug\net8.0\FirstdemoE02.exe
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\bin\Debug\net8.0\FirstdemoE02.deps.json
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\bin\Debug\net8.0\FirstdemoE02.runtimeconfig.json
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\bin\Debug\net8.0\FirstdemoE02.dll
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\bin\Debug\net8.0\FirstdemoE02.pdb
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.AssemblyInfoInputs.cache
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.AssemblyInfo.cs
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.dll
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\refint\FirstdemoE02.dll
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.pdb
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\FirstdemoE02.genruntimeconfig.cache
+C:\Users\harsimrana\source\repos\FirstdemoE02\FirstdemoE02\obj\Debug\net8.0\ref\FirstdemoE02.dll

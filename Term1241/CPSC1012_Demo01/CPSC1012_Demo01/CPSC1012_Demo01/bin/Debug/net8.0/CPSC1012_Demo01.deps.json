@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CPSC1012_Demo01/1.0.0": {
+        "runtime": {
+          "CPSC1012_Demo01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CPSC1012_Demo01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

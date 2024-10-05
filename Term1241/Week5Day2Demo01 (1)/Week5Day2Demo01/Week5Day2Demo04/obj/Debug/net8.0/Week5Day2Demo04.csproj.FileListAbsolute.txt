@@ -1,0 +1,14 @@
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\bin\Debug\net8.0\Week5Day2Demo04.exe
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\bin\Debug\net8.0\Week5Day2Demo04.deps.json
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\bin\Debug\net8.0\Week5Day2Demo04.runtimeconfig.json
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\bin\Debug\net8.0\Week5Day2Demo04.dll
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\bin\Debug\net8.0\Week5Day2Demo04.pdb
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.AssemblyInfoInputs.cache
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.AssemblyInfo.cs
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.dll
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\refint\Week5Day2Demo04.dll
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.pdb
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\Week5Day2Demo04.genruntimeconfig.cache
+C:\Users\harsimrana\source\repos\Week5Day2Demo01\Week5Day2Demo04\obj\Debug\net8.0\ref\Week5Day2Demo04.dll
