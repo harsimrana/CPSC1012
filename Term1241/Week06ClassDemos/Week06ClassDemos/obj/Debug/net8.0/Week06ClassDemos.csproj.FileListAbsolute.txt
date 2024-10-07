@@ -1,0 +1,15 @@
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\bin\Debug\net8.0\Week06ClassDemos.exe
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\bin\Debug\net8.0\Week06ClassDemos.deps.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\bin\Debug\net8.0\Week06ClassDemos.runtimeconfig.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\bin\Debug\net8.0\Week06ClassDemos.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\bin\Debug\net8.0\Week06ClassDemos.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.AssemblyInfoInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.AssemblyInfo.cs
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.sourcelink.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\refint\Week06ClassDemos.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\Week06ClassDemos.genruntimeconfig.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week06ClassDemos\Week06ClassDemos\obj\Debug\net8.0\ref\Week06ClassDemos.dll
