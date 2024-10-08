@@ -8,7 +8,7 @@
 
             int a = 0, b = 0;
 
-            try
+            try 
             {
                 //Prompt the user fo inputs
                 Console.Write("Enter the first number:");
@@ -31,7 +31,7 @@
             }
             catch (Exception e)
             {
-                Console.WriteLine("As a good user, provide intergers values only");
+                Console.WriteLine("As a good user, provide intergers values only"+ e.Message);
                 Console.WriteLine("Re-run the program one more time");
             }
             

@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0D1998D8-516A-4C1F-A5C5-D859CB0C9C0B}|Week06ClassDemos\\Week06ClassDemos.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week06classdemos\\week06classdemos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D1998D8-516A-4C1F-A5C5-D859CB0C9C0B}|Week06ClassDemos\\Week06ClassDemos.csproj|solutionrelative:week06classdemos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BD5D4E9-3BE0-404E-A345-221AD88129B7}|Week6Day1Demo02\\Week6Day1Demo02.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week06classdemos\\week6day1demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BD5D4E9-3BE0-404E-A345-221AD88129B7}|Week6Day1Demo02\\Week6Day1Demo02.csproj|solutionrelative:week6day1demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day1Demo02\\Program.cs",
+              "RelativeDocumentMoniker": "Week6Day1Demo02\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day1Demo02\\Program.cs",
+              "RelativeToolTip": "Week6Day1Demo02\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T00:00:50.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +45,7 @@
               "RelativeDocumentMoniker": "Week06ClassDemos\\Program.cs",
               "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week06ClassDemos\\Program.cs",
               "RelativeToolTip": "Week06ClassDemos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T23:30:26.898Z",
               "EditorCaption": ""
