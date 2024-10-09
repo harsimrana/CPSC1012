@@ -38,6 +38,19 @@
                 Console.WriteLine($"{i}");
             }
 
+            // Write a program to print table of any number
+            int numb;
+
+            // Ask the user to enter the number
+            Console.WriteLine("Enter the number for which you would like to have a table: ");
+            numb = int.Parse(Console.ReadLine());
+
+
+            for (i = 1; i <= 10; ++i)
+            { 
+                Console.WriteLine($" {numb} x {i} = {numb * i}");
+           
+            }
 
 
 
