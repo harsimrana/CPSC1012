@@ -19,9 +19,25 @@
             // * * * * *
             // * * * * *
 
-            for (j = 1; j <= 4; ++j)
+            /*for (j = 1; j <= 4; ++j)
             {
                 for (i = 1; i <= 5; ++i) // Single Line 
+                {
+                    Console.Write("* ");
+                }
+                Console.WriteLine("");
+            }
+            */
+
+            // Another question
+            // * 
+            // * * 
+            // * * *
+            // * * * *
+            // 
+            for (j = 1; j <= 4; ++j)
+            {
+                for (i = 1; i <= j; ++i) // Single Line 
                 {
                     Console.Write("* ");
                 }
@@ -30,9 +46,24 @@
 
             // Another question
             // * 
-            // * * 
             // * * *
-            // * * * * 
+            // * * * * *
+            // * * * * * * *
+            // 
+
+            // Another question
+            //        * 
+            //      * * *
+            //    * * * * *
+            //  * * * * * * *
+            //* * * * * * * * *
+
+            // Another question
+            //        * 
+            //      * * 
+            //    * * * 
+            //  * * * * 
+            //* * * * * 
 
         }
     }
