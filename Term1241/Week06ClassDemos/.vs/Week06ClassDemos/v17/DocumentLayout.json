@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6F45E8C-350F-4F04-BF07-C5F6D8CB66F3}|Week6Day2Demo02\\Week6Day2Demo02.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week06classdemos\\week6day2demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F45E8C-350F-4F04-BF07-C5F6D8CB66F3}|Week6Day2Demo02\\Week6Day2Demo02.csproj|solutionrelative:week6day2demo02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7701B93C-823E-4330-93F0-CA06F1043607}|Week6Day2Demo01\\Week6Day2Demo01.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week06classdemos\\week6day2demo01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7701B93C-823E-4330-93F0-CA06F1043607}|Week6Day2Demo01\\Week6Day2Demo01.csproj|solutionrelative:week6day2demo01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,6 +36,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day2Demo02\\Program.cs",
+              "RelativeDocumentMoniker": "Week6Day2Demo02\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day2Demo02\\Program.cs",
+              "RelativeToolTip": "Week6Day2Demo02\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T00:13:23.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day2Demo01\\Program.cs",
               "RelativeDocumentMoniker": "Week6Day2Demo01\\Program.cs",
               "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day2Demo01\\Program.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week6Day1Demo02\\Program.cs",
               "RelativeDocumentMoniker": "Week6Day1Demo02\\Program.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week06ClassDemos\\Week06ClassDemos\\Program.cs",
               "RelativeDocumentMoniker": "Week06ClassDemos\\Program.cs",
