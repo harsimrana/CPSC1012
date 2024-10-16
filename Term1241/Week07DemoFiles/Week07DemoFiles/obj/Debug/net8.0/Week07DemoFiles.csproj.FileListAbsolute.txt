@@ -1,0 +1,15 @@
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\bin\Debug\net8.0\Week07DemoFiles.exe
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\bin\Debug\net8.0\Week07DemoFiles.deps.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\bin\Debug\net8.0\Week07DemoFiles.runtimeconfig.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\bin\Debug\net8.0\Week07DemoFiles.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\bin\Debug\net8.0\Week07DemoFiles.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.AssemblyInfoInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.AssemblyInfo.cs
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.sourcelink.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\refint\Week07DemoFiles.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\Week07DemoFiles.genruntimeconfig.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week07DemoFiles\Week07DemoFiles\obj\Debug\net8.0\ref\Week07DemoFiles.dll
