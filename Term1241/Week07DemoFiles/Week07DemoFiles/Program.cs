@@ -1,4 +1,6 @@
-﻿namespace Week07DemoFiles
+﻿using System.Collections.Immutable;
+
+namespace Week07DemoFiles
 {
     internal class Program
     {
@@ -18,11 +20,17 @@
             // Syntax
             // Data type [] name = new Datatype [N];
 
-            int[] scoreList = new int[5];
+            int listSize, sum=0;
+
+            Console.Write("How many elements in your list: ");
+            listSize = int.Parse(Console.ReadLine());
+            
+            int[] scoreList = new int[ listSize ];
             int i; // Loop controller
 
+            // Input from User
             // Assign values to array elements
-            for (i = 0; i <= 4; ++i)
+            for (i = 0; i < listSize; ++i)
             {
                 Console.Write("Enter value: ");
 
@@ -34,13 +42,30 @@
             scoreList[3] = 7;
             scoreList[4] = 9;
             */
+            // Sort your numbers
+            // Use built in feature of Array Class: Sort() method
 
+            Array.Sort(scoreList);
+
+
+            // Add all the list elements  and return final sum 
+            i = 0; // Initial value
+            while (i < listSize) // Condition
+            {
+                sum = sum + scoreList[i];
+
+                // Modification of initial value
+                i++;
+            }
+            // Printing them back to user
             // Access any element in an array
             // arrayName[index]
-            for (i = 0; i <= 4; ++i)
+            for (i = 0; i < listSize; ++i)
             {
                 Console.WriteLine($"{i+1} Element {scoreList[i]}");
             }
+
+            Console.WriteLine($"Sum of Numbers: {sum}");
             /*
             Console.WriteLine($"2nd Element {scoreList[1]}");
             Console.WriteLine($"3rd Element {scoreList[2]}");
