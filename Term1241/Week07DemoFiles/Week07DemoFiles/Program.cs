@@ -28,6 +28,8 @@ namespace Week07DemoFiles
             int[] scoreList = new int[ listSize ];
             int i; // Loop controller
 
+            double average; // To store mean average
+
             // Input from User
             // Assign values to array elements
             for (i = 0; i < listSize; ++i)
@@ -57,6 +59,7 @@ namespace Week07DemoFiles
                 // Modification of initial value
                 i++;
             }
+
             // Printing them back to user
             // Access any element in an array
             // arrayName[index]
@@ -66,6 +69,14 @@ namespace Week07DemoFiles
             }
 
             Console.WriteLine($"Sum of Numbers: {sum}");
+
+            // Find mean average
+            // average = Sum of number / number of element
+
+            average = (double)sum / listSize;
+
+            Console.WriteLine($" Mean average = {average}");
+
             /*
             Console.WriteLine($"2nd Element {scoreList[1]}");
             Console.WriteLine($"3rd Element {scoreList[2]}");

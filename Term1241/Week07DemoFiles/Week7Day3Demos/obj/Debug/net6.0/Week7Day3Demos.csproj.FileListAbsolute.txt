@@ -1,0 +1,15 @@
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\bin\Debug\net6.0\Week7Day3Demos.exe
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\bin\Debug\net6.0\Week7Day3Demos.deps.json
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\bin\Debug\net6.0\Week7Day3Demos.runtimeconfig.json
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\bin\Debug\net6.0\Week7Day3Demos.dll
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\bin\Debug\net6.0\Week7Day3Demos.pdb
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.csproj.AssemblyReference.cache
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.AssemblyInfoInputs.cache
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.AssemblyInfo.cs
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.dll
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\refint\Week7Day3Demos.dll
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.pdb
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\Week7Day3Demos.genruntimeconfig.cache
+C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week07DemoFiles\Week7Day3Demos\obj\Debug\net6.0\ref\Week7Day3Demos.dll
