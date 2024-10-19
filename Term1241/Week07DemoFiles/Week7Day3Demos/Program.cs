@@ -21,7 +21,8 @@ namespace Week7Day3Demos
                 5. Print the location back to user or no element found
              */
             //Step 1:
-            int[] list = { 3, 5, 7, 10, 34, 67, 87, 20 };
+            // Uncomment the following line to if you need to test it with hard coded values
+             //int[] list = { 3, 5, 7, 10, 34, 67, 87, 20 };
             /*Mermory representation of this array
              * _____________________________________
              *| 3 | 5 | 7 | 10 | 34 | 67 | 87 | 20|
@@ -29,15 +30,53 @@ namespace Week7Day3Demos
              *  0   1   2   3    4    5    6    7
              * 
              */
-            
-            int findNumber, i, locationOfElement = -1;
+            // Comment out the following line if you need to test it with hard coded values
+            int[] list = new int[25]; // physical size 25 element
+            int findNumber=0, i, locationOfElement = -1;
+            bool isValid = true;
+           
+            //Title of the program
+            Console.WriteLine("Value Finder");
+            Console.WriteLine("===============");
+            Console.WriteLine("");
 
-            //Step 2: Take values from user-- Skipped
+            //Step 2: Take values from user 
+            //Loop to input values from user and store them in array
+            for (i = 0; i < list.Length; ++i)
+            {
+                isValid = true;
+                while (isValid)
+                {
+                    try
+                    {
+                        Console.Write($"Enter {i + 1} element: ");
+                        list[i] = int.Parse(Console.ReadLine());
+                        isValid = false;
+                    }
+                    catch(Exception e)
+                    {
+                        isValid = true;
+                    }
+                }
+            }
 
+
+            isValid = true;
             // Step 3: Ask the user for a number to be searched -- Variable
-            Console.Write("Enter the number to be searched: ");
-            findNumber = int.Parse(Console.ReadLine());
-
+            while (isValid)  // Forcing the user to input numerical value
+            {
+                try
+                {
+                    Console.Write("Enter the number to be searched: ");
+                    findNumber = int.Parse(Console.ReadLine());
+                    isValid = false;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Please input numerical value only");
+                    isValid = true; 
+                }
+            }
             //Step 4 Processing: Find location of the element
             // 4a.Traverse the array
             // Length property - will give you number of elements in the list
