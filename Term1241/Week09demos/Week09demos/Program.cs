@@ -6,9 +6,14 @@
         {
             // Call your method
             //First Call to my method
-            DoSomething("Something", 5);  // arguments
+            DoSomething("Something");  // arguments
+
             //Second call with different values
+            // In regular call to your method, the values should be in right order
             DoSomething("Harsimranjot", 10);
+            // What we can override this behaviour by using named arguments
+
+            DoSomething(a: 10, message: "Harsimranjot");
 
             int n = 4;
 
@@ -26,7 +31,7 @@
         // 1. Pascal naming notation
         // 2. Start with verb
         //                              parameters
-        public static void DoSomething(string message, int a)
+        public static void DoSomething(string message, int a = 5)
         {
             Console.WriteLine(message);
             Console.WriteLine(a);
