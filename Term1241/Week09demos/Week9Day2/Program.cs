@@ -11,7 +11,7 @@
 
             age = PromptInt("Enter your age :");
 
-            Console.WriteLine($" Username = {username}");
+            Console.WriteLine($" Username = {username} age= {age}");
         }
         // Method Problems 2 Q1
         /***************************
