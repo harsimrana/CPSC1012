@@ -1,0 +1,15 @@
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\bin\Debug\net6.0\Week9Day2.exe
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\bin\Debug\net6.0\Week9Day2.deps.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\bin\Debug\net6.0\Week9Day2.runtimeconfig.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\bin\Debug\net6.0\Week9Day2.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\bin\Debug\net6.0\Week9Day2.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.AssemblyInfoInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.AssemblyInfo.cs
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.sourcelink.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\refint\Week9Day2.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\Week9Day2.genruntimeconfig.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2\obj\Debug\net6.0\ref\Week9Day2.dll
