@@ -1,0 +1,15 @@
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\bin\Debug\net6.0\Week9Day2Demo03.exe
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\bin\Debug\net6.0\Week9Day2Demo03.deps.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\bin\Debug\net6.0\Week9Day2Demo03.runtimeconfig.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\bin\Debug\net6.0\Week9Day2Demo03.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\bin\Debug\net6.0\Week9Day2Demo03.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.AssemblyInfoInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.AssemblyInfo.cs
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.csproj.CoreCompileInputs.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.sourcelink.json
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\refint\Week9Day2Demo03.dll
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.pdb
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\Week9Day2Demo03.genruntimeconfig.cache
+C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week9Day2Demo03\obj\Debug\net6.0\ref\Week9Day2Demo03.dll
