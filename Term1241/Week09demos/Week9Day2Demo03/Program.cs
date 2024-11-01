@@ -9,13 +9,14 @@
             
             Console.WriteLine($"Before Calling method: Value of a = {a} and b = {b}");
 
-            ChangeValues(ref a, ref b);
+            // Passing a by reference and passing b by value. Observe the values after function call
+            ChangeValues(ref a, b);
 
             Console.WriteLine($"After Calling method: Value of a = {a} and b = {b}");
 
         }
 
-        static void ChangeValues(ref int a, ref int b)
+        static void ChangeValues(ref int a, int b)
         {
             Console.WriteLine($" Inside Method: Value of a = {a} and b = {b}");
             a = 10;

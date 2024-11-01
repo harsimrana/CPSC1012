@@ -8,6 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Week09demos
-build_property.ProjectDir = C:\Users\harsimrana\Documents\GitHubClassWork\CPSC1012\Term1241\Week09demos\Week09demos\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\harsimrana\OneDrive - NAIT\Desktop\1012PR\CPSC1012\CPSC1012\Term1241\Week09demos\Week09demos\
