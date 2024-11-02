@@ -27,7 +27,7 @@
 
             PrintValue(averageMarks, "Means Average Marks for the class= ");
 
-        }
+        }//End of Main method
 
         /****************************************************************
        * Function Name      : PrintProgramTitle
@@ -113,6 +113,6 @@
         { 
             Console.WriteLine($"{label} = {value}");
         }
-
-    }
-}
+        
+    }//End of Program Class
+}// End of Namespace
