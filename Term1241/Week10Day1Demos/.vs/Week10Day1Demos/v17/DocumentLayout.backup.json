@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8724224F-B848-4AE8-9E64-B2AD30A980DA}|Week10Day1Demos\\Week10Day1Demos.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week10day1demos\\week10day1demos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8724224F-B848-4AE8-9E64-B2AD30A980DA}|Week10Day1Demos\\Week10Day1Demos.csproj|solutionrelative:week10day1demos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day1Demos\\Program.cs",
+              "RelativeDocumentMoniker": "Week10Day1Demos\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day1Demos\\Program.cs",
+              "RelativeToolTip": "Week10Day1Demos\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T00:07:50.832Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
