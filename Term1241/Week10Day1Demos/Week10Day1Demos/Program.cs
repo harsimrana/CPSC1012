@@ -1,133 +1,53 @@
-﻿using System.ComponentModel.Design;
-
-namespace Assignment2
+﻿namespace Week10Day1Demos
 {
     internal class Program
     {
         static void Main(string[] args)
-
         {
-            //Constants for vehicle fuel effficincy
-            const double YOUR_VEHICLE_EFFECIENCY = 11.9; //L per 100km
-            const double FRIEND_VEHICLE_EFFECIENCY = 8.7; //L per 100km
+            //Reading and writing Data to/from files
 
-            bool continueCalculation = true;
-            Random random = new Random();
+            // Creating and opening a file
+            /* StreamWriter writer = new StreamWriter(@"C:\Users\harsimrana\Documents\Data\data.txt");
 
-            while (continueCalculation)
+             // Writing to file
+             writer.WriteLine("Print something on screen");
+             writer.WriteLine("Second line into the file");
+
+             // Close your file
+             writer.Close();
+            */
+            string path = @"C:\Users\harsimrana\Documents\Data\data.txt";
+
+            // Asking user to provide file path
+            Console.Write("Enter the file path to read data from: ");
+            path = Console.ReadLine();
+
+            // path variable to hold path of the file.
+
+            if (File.Exists(path))  // To check whether file exists or not
             {
-                //Getting the trip distance input
-                double tripDistance = GetTripDistance();
+                // Let's read the data from file
+                StreamReader reader = new StreamReader(path);
 
-                //Getting thye vehicle choice input
-                double fuelefficiency = GetVehicleChoice(YOUR_VEHICLE_EFFECIENCY, FRIEND_VEHICLE_EFFECIENCY);
-
-                //simulating the fuel price 
-                double fuelPrice = random.NextDouble() * (2.00 - 1.40) + 1.40;
-                fuelPrice = Math.Round(fuelPrice, 2); //round to decimal places
-
-                //calculating fuel needed and cost
-                double fuelNeeded = (fuelefficiency / 100) * tripDistance;
-                double fuelCost = fuelNeeded * fuelPrice;
-
-                //Calculating food cost based on trip distance
-                double foodCost = CalculateFoodCost(tripDistance);
-
-                //Calculating total cost
-                double totalcost = fuelCost + foodCost;
-
-                //Display the results
-                Console.WriteLine("\nTrip length: {0} km", tripDistance);
-                Console.WriteLine("Fuel efficiency: {0} L per 100km", fuelefficiency);
-                Console.WriteLine("Fuel needed: {0} L", Math.Round(fuelNeeded, 2));
-                Console.WriteLine("fuelNeeded price: ${0} per L", fuelPrice);
-                Console.WriteLine("Fuel cost: ${0}", Math.Round(fuelCost, 2));
-                Console.WriteLine("Food Cost: ${0}", foodCost);
-                Console.WriteLine("Total cost: ${0}", Math.Round(totalcost, 2));
-
-                //Asking the user if they want to do another calculation
-                continueCalculation = AskToContinue();
-
-
-            }
-        }
-
-        static double GetTripDistance()
-        {
-            double tripDistance;
-            while (true)
-            {
-                Console.Write("Please enter the trip distance in whole kilometers: ");
-                string input = Console.ReadLine();
-                if (double.TryParse(input, out tripDistance) && tripDistance > 0)
+                // Unknown length data from file
+                //EndOfStream property will give you true or false value
+                // If end of file reaches, it will return true otherwise false
+                while (reader.EndOfStream == false)
                 {
-                    return tripDistance;
+                    // reading single line from your file at a time
+                    string line = reader.ReadLine();
+
+                    //Print the line to screen
+                    Console.WriteLine(line);
                 }
-                else
-                {
-                    Console.WriteLine("Invalid number. Please enter the distance whole kilometers: ");
-                }
-
-
-            }
-        }
-
-        //Method to get the vehicle choice (your vehicle or friend's)
-        static double GetVehicleChoice(double yourVehicleEfficiency, double friendVehicleEfficiency)
-
-        {
-            while (true)
-            {
-                Console.Write("Will you be taking [y]our vehicle or your [f]riend's? (y/f): ");
-                string vehicleChoice = Console.ReadLine().ToLower();
-
-                if (vehicleChoice == "y")
-                {
-                    return yourVehicleEfficiency;
-                }
-                else if (vehicleChoice == "f")
-                {
-                    return friendVehicleEfficiency;
-                }
-                else
-                {
-                    Console.WriteLine("Please enter one character only.");
-                }
-            }
-
-
-        }
-
-        //Method to calculate food cost based on trip distance
-        static double CalculateFoodCost(double tripDistance)
-        {
-            if (tripDistance < 2000)
-            {
-                return 30;
-            }
-            else if (tripDistance < 500)
-            {
-                return 50;
-            }
-            else if (tripDistance < 1000)
-            {
-                return 80;
+                reader.Close();
             }
             else
             {
-                return 120;
+                Console.WriteLine("File does not exists");
             }
+
+
         }
-
-        //Method to ask if the usser wants to continue
-        static bool AskToContinue()
-        {
-            Console.Write("Would you like to do another calculation? \nEnter Y to continue or any other key to Exit: ");
-            string continueInput = Console.ReadLine().ToLower();
-            return continueInput == "y";
-        }
-
-
-
     }
 }
