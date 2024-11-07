@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4555FCC7-D368-4FAC-BCEA-31951CA7A91D}|Week10Day2Demo\\Week10Day2Demo.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week10day1demos\\week10day2demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4555FCC7-D368-4FAC-BCEA-31951CA7A91D}|Week10Day2Demo\\Week10Day2Demo.csproj|solutionrelative:week10day2demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8724224F-B848-4AE8-9E64-B2AD30A980DA}|Week10Day1Demos\\Week10Day1Demos.csproj|c:\\users\\harsimrana\\documents\\githubclasswork\\cpsc1012\\term1241\\week10day1demos\\week10day1demos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8724224F-B848-4AE8-9E64-B2AD30A980DA}|Week10Day1Demos\\Week10Day1Demos.csproj|solutionrelative:week10day1demos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -24,11 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day2Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Week10Day2Demo\\Program.cs",
+              "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day2Demo\\Program.cs",
+              "RelativeToolTip": "Week10Day2Demo\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:24:17.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day1Demos\\Program.cs",
               "RelativeDocumentMoniker": "Week10Day1Demos\\Program.cs",
               "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day1Demos\\Program.cs",
               "RelativeToolTip": "Week10Day1Demos\\Program.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAmwGoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T00:07:50.832Z",
               "EditorCaption": ""

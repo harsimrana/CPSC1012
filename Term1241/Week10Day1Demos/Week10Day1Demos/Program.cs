@@ -7,15 +7,22 @@
             //Reading and writing Data to/from files
 
             // Creating and opening a file
-            /* StreamWriter writer = new StreamWriter(@"C:\Users\harsimrana\Documents\Data\data.txt");
+            try
+            {
+                StreamWriter writer = new StreamWriter(@"C:\Users\harsimrana\Documents\Data\data.txt");
 
-             // Writing to file
-             writer.WriteLine("Print something on screen");
-             writer.WriteLine("Second line into the file");
+                // Writing to file
+                writer.WriteLine("Print something on screen");
+                writer.WriteLine("Second line into the file");
 
-             // Close your file
-             writer.Close();
-            */
+                // Close your file
+                writer.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something wrong while write data to file");
+            }
+
             string path = @"C:\Users\harsimrana\Documents\Data\data.txt";
 
             // Asking user to provide file path
@@ -46,8 +53,10 @@
             {
                 Console.WriteLine("File does not exists");
             }
-
+           
 
         }
+
+        
     }
 }

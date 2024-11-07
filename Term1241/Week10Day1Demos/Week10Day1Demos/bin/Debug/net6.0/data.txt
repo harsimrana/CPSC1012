@@ -1,0 +1,2 @@
+Print something on screen
+Second line into the file
