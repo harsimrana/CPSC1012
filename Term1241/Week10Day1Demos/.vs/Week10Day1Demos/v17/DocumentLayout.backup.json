@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +32,10 @@
               "RelativeDocumentMoniker": "Week10Day2Demo\\Program.cs",
               "ToolTip": "C:\\Users\\harsimrana\\Documents\\GitHubClassWork\\CPSC1012\\Term1241\\Week10Day1Demos\\Week10Day2Demo\\Program.cs",
               "RelativeToolTip": "Week10Day2Demo\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswBEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:24:17.374Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
