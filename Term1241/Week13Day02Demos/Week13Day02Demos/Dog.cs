@@ -34,6 +34,7 @@ namespace Week13Day02Demos
             _color = color;
 
         }
+
         // Some methods
         public void PrintDetails()
         {
