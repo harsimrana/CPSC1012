@@ -11,7 +11,7 @@
 
             // order of my ints must match 
 
-            House fancyHouseV2 = new House(numberRooms: 20, numberFloors: 4, 21, true);
+            House fancyHouseV2 = new House(numberRooms: 15, numberFloors: 3, 21, true);
             // optionally, we can named parameters to improve readability and hopefully reduce confusion
 
 
@@ -62,7 +62,7 @@
                         DisplayHouseDetails(myProperties);
                         break;
                     case "E":
-                        // EditHouseDetails(myProperties);
+                        EditHouseDetails(myProperties);
                         break;
                     case "L":
                         // LoadFromFile(myProperties);
@@ -224,5 +224,70 @@
             // All good: return the value
             return userResponse;  //Returning valid int value received from user 
         }// End Of method GetValidInt
+
+        public static void DisplayHouseDetails(List<House> list)
+        {
+            // Reviewing Foreach Loop
+            /*
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            // using regular for loop
+            for (int i = 0; i < numbers.Length; ++i)
+            {
+                Console.WriteLine($" {numbers[i]}");
+            }
+
+            // Foreach 
+            foreach (int elem in numbers)
+            { // taking one element out of the collection 
+                Console.WriteLine(elem);
+            }
+            */
+
+            // Display house details for houses
+
+            // iterate through each house in the list
+            int counter = 1;
+                    // element  in CollectionName
+            foreach (House elem in list)
+            {   //House # 1 has 2 rooms, 2 Floors 
+                                    //Conditional Operator- Ternary operator
+                string roomMessage = elem.NumberRooms > 1 ? " rooms" : "room";
+
+                string floorMessage = elem.NumberFloors > 1 ? " floors" : "floor";
+
+                Console.WriteLine($"House # {counter} has {elem.NumberRooms} {roomMessage}, {elem.NumberFloors} {floorMessage} ");
+                counter++;
+            }
+        }
+
+        public static void EditHouseDetails(List<House> list)
+        {
+            int houseNumber;
+            // Display all house and ask the user to choose one
+            DisplayHouseDetails(list);
+
+            // Take user input
+            do
+            {
+                houseNumber = GetValidInt("Please select a house to edit: ");
+
+                if (houseNumber <= 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("That is too small of a number. Must be 1 or greater");
+                    Console.ResetColor();
+                }
+                else if (houseNumber > list.Count) // Count property will give current total number of elements in list
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"That is too large of a number. Must be {list.Count} or less");
+                    Console.ResetColor();
+                }
+
+            } while (houseNumber < 1 || houseNumber > list.Count);
+
+            // Ask the user which property they want to change
+
+        }
     }
 }
