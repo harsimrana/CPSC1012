@@ -48,16 +48,18 @@
                 DisplayMenu();
                 //Don't worry about exception handling in THIS program for now
 
-                Console.WriteLine("Please enter your choice: ");
+                Console.Write("Please enter your choice: ");
                 userChoice= Console.ReadLine();
 
                 switch(userChoice) 
                 {
                     case "N":
-                        //AddNewHouse(myProperties); // Passing List to method
+                        // Just for testing
+                        //Console.WriteLine("Inside Add new house");
+                        AddNewHouse(myProperties); // Passing List to method
                         break;
                     case "D":
-                        // DisplayHouseDetails(myProperties);
+                        DisplayHouseDetails(myProperties);
                         break;
                     case "E":
                         // EditHouseDetails(myProperties);
@@ -91,22 +93,25 @@
             Console.WriteLine("[Q]uit");
         }
 
+        // List will be passed as reference
         public static void AddNewHouse(List <House> houseList)
         {
+            // Just for testing
+            //Console.WriteLine("Inside Add New House Method");
             // Create a house using no-arguments Constructor
             House house = new House();
 
             bool isValid = false;
 
             // prompt the user for details and set each property
-
+            // Number of rooms
             do
             {
                 try
                 {
-                    Console.Write(" Enter # rooms: ");
-
-                    house.NumberRooms = int.Parse(Console.ReadLine()); 
+                    // int GetValidInt(Label for user)
+                    house.NumberRooms = GetValidInt("Enter # of rooms: ");
+                    isValid = true;
                 }
                 catch(Exception e)
                 {
@@ -117,6 +122,107 @@
 
             } while (isValid == false);
 
+            //changing it back to false
+            isValid = false;
+
+            // Taking number of floors
+            do
+            {
+                try
+                {
+                    // int GetValidInt(Label for user)
+                    house.NumberFloors = GetValidInt("Enter # of Floors: ");
+                    isValid = true;
+                }
+                catch (Exception e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Invalid entry. Please try again");
+                    Console.ResetColor();
+                }
+
+            } while (isValid == false);
+
+
+            isValid = false;
+
+            // Taking temp value
+            do
+            {
+                try
+                {
+                    Console.Write("Enter temp. of house: ");
+                    house.Temperature = double.Parse(Console.ReadLine());
+                    isValid = true;
+                }
+                catch (Exception e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Invalid entry. Please try again");
+                    Console.ResetColor();
+                }
+
+            } while (isValid == false);
+
+            isValid = false;
+
+            // Taking hasGarage value
+            do
+            {
+                try
+                {
+                    Console.Write("House has Garage?? True/False: ");
+                    house.HasGarage = bool.Parse(Console.ReadLine());
+                    isValid = true;
+                }
+                catch (Exception e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Invalid entry. Please try again");
+                    Console.ResetColor();
+                }
+
+            } while (isValid == false);
+
+
+            // All house values have been taken
+            // Add this object to your list
+            
+            //listName.Add( object/value);
+
+            houseList.Add(house);
+
         }
+
+        public static int GetValidInt(string message)
+        {
+            int userResponse = 0;
+
+            bool isValid = false;
+
+            do
+            {
+                try
+                {
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.Write(message);
+                    userResponse = int.Parse(Console.ReadLine());
+                    isValid = true;
+                }
+                catch (Exception e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("That is not a valid number. Please try again");
+
+                }
+                finally // this runs no matter what 
+                {
+                    Console.ResetColor();
+                }
+                
+            } while (!isValid);
+            // All good: return the value
+            return userResponse;  //Returning valid int value received from user 
+        }// End Of method GetValidInt
     }
 }
