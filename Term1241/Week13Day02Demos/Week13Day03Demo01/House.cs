@@ -16,7 +16,7 @@ namespace Week13Day03Demo01
 
         // MEMBER VARIABLES- FIELDS - STATE
         private int _numberRooms; // ints default to 0
-        private int _numberFloors = 1;
+        private int _numberFloors = 1; // Default value is 1 
         private double _temperature = 19;
         private bool _hasGarage; // bools default to false
 

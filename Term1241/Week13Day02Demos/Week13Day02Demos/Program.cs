@@ -5,7 +5,7 @@
     {
         static void Main(string[] args)
         {
-            // Create an object of Dog class
+            // Create an object/ instance of Dog class
             Dog lily = new Dog();  // Calling Defautl constructor 
 
             // Print dog details

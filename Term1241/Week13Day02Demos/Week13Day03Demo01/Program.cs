@@ -32,7 +32,7 @@
 
             //List 
 
-            List <House> myProperties = new List<House>();  // Create an empty
+            List <House> myProperties = new List<House>(20);  // Create an empty
             // Add your houses into list
             // Using Add method
             myProperties.Add(defaultHouse);
@@ -65,10 +65,10 @@
                         EditHouseDetails(myProperties);
                         break;
                     case "L":
-                        // LoadFromFile(myProperties);
+                        LoadFromFile(myProperties);
                         break;
                     case "S":
-                        // SaveToFile(myProperties);
+                        SaveToFile(myProperties);
                         break;
                     case "Q":
                        // User wants to quit, do nothing
@@ -81,6 +81,104 @@
 
             } while (userChoice != "Q");
         }
+
+        // Method to read data from file
+        public static void LoadFromFile(List<House> list)
+        {
+            // Empty your list
+            list.Clear(); // Remove all elements from the list
+
+
+            // .tsv- tab separated values
+            Console.Write(" Please enter file path and name to save the data [.txt, .csv, .tsv]: ");
+            // Taking file path and name from user
+            string fileName = Console.ReadLine();
+
+
+            try
+            {
+                StreamReader reader = new StreamReader(fileName);
+
+                //throw away the header line
+                reader.ReadLine();
+
+                // read it in, line by line
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+                    // Console.WriteLine(line); // Just for testing
+
+                    // Split up line, using that \t as delimiter
+                    string[] magicArray = line.Split("\t");
+
+                    House house = new House();
+                    house.NumberRooms = int.Parse(magicArray[0]);
+                    house.NumberFloors = int.Parse(magicArray[1]);
+                    house.Temperature = double.Parse(magicArray[2]);
+                    house.HasGarage = bool.Parse(magicArray[3]);
+
+                    // add this object into list
+                    list.Add(house);
+
+                }
+
+                //Close the stream
+                reader.Close();
+
+                // Success message to user
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("File successfully Loaded. ");
+                Console.ResetColor();
+            }
+            catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Error reading from file " + e.Message);
+                Console.ResetColor();
+            }
+
+        }
+        // Method to save data to file
+        public static void SaveToFile(List<House> list)
+        {                                                                   // .tsv- tab separated values
+            Console.Write(" Please enter file path and name to save the data [.txt, .csv, .tsv]: ");
+            // Taking file path and name from user
+            string fileName = Console.ReadLine();
+
+            try
+            {
+                //1. Open the file- In a try catch block
+                // create our StreamWriter object- to write to the file
+                StreamWriter writer= new StreamWriter(fileName);
+
+                //2. Write Data to File
+
+                //HardCode the header Line
+                writer.WriteLine("Rooms\tFloors\tTemp\tGarage");
+                
+                //Writing data values from list into my file
+                foreach (House element in list)
+                {
+                    writer.WriteLine($"{element.NumberRooms}\t{element.NumberFloors}\t{element.Temperature}\t{element.HasGarage}");
+                }
+
+                //3. Close the stream
+                writer.Close();
+
+                // Success message to user
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("File successfully saved. " );
+                Console.ResetColor();
+
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Error saving to file " + ex.Message);
+                Console.ResetColor();
+            }
+
+        }
         public static void DisplayMenu()
         {
             Console.WriteLine("Main Menu ");
@@ -91,6 +189,17 @@
             Console.WriteLine("[L]oad from file");
             Console.WriteLine("[S]ave to file");
             Console.WriteLine("[Q]uit");
+        }
+        // Sub Menu for House properties
+        public static void DisplaySubMenu()
+        {
+            Console.WriteLine("House Editing Menu ");
+            Console.WriteLine("=====================");
+            Console.WriteLine("1. Number of rooms ");
+            Console.WriteLine("2. Number of Floors");
+            Console.WriteLine("3. Temperature");
+            Console.WriteLine("4. Add or remove Garage");
+            Console.WriteLine("5. To return to main Menu");
         }
 
         // List will be passed as reference
@@ -255,18 +364,20 @@
 
                 string floorMessage = elem.NumberFloors > 1 ? " floors" : "floor";
 
-                Console.WriteLine($"House # {counter} has {elem.NumberRooms} {roomMessage}, {elem.NumberFloors} {floorMessage} ");
+                string garageText = elem.HasGarage ? "has" : "does not have";
+                
+                Console.WriteLine($"House # {counter} has {elem.NumberRooms} {roomMessage}, {elem.NumberFloors} {floorMessage}, is {elem.Temperature} degree, and {garageText} a garage ");
                 counter++;
             }
         }
-
-        public static void EditHouseDetails(List<House> list)
+         
+        public static void EditHouseDetails(List<House> list) // List is always passed by reference
         {
             int houseNumber;
             // Display all house and ask the user to choose one
             DisplayHouseDetails(list);
 
-            // Take user input
+            // Take user input for house number to be edited
             do
             {
                 houseNumber = GetValidInt("Please select a house to edit: ");
@@ -288,6 +399,72 @@
 
             // Ask the user which property they want to change
 
+
+            int propertyChoice = 0;
+            do
+            {
+                DisplaySubMenu(); // Sub menu for Different house properties
+
+                propertyChoice = GetValidInt("Please enter your choice: ");
+
+                switch (propertyChoice)
+                {
+                    case 1:
+                        // -1 to find right index because index starts from 0
+                        // House 1 - index 0
+                        list[houseNumber -1 ].NumberRooms = GetValidInt("Please enter new # of rooms: ");
+                        break;
+                    case 2: // Number of floor
+                        list[houseNumber - 1].NumberFloors = GetValidInt("Please enter new # of floors: ");
+                        break;
+                    case 3: // Instead of creating method, writing code directly
+                        bool isValid = false;
+                        do
+                        {
+                            try
+                            {
+                                Console.Write("Enter temp. of house: ");
+                                list[houseNumber - 1].Temperature = double.Parse(Console.ReadLine());
+                                isValid = true;
+                            }
+                            catch (Exception e)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Invalid entry. Please try again");
+                                Console.ResetColor();
+                            }
+
+                        } while (isValid == false);
+                        break;
+                    case 4:
+                        isValid = false;
+                        do
+                        {
+                            try
+                            {
+                                Console.Write("Does House has a garage? True/ False: ");
+                                list[houseNumber - 1].HasGarage = bool.Parse(Console.ReadLine());
+                                isValid = true;
+                            }
+                            catch (Exception e)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Invalid entry. Please try again");
+                                Console.ResetColor();
+                            }
+
+                        } while (isValid == false);
+                        break;
+                    case 5:
+                        // GO back to previous menu
+                        break;
+                    default:
+                        Console.WriteLine("Not an option. Try again with a valid option");
+                        break;
+
+                }
+
+            } while (propertyChoice != 5);
         }
     }
 }

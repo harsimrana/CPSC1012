@@ -53,7 +53,7 @@
                 Console.WriteLine($"{elemFind} is not found in the list");
             }
             
-            // Count    - current number of elements in the list
+            // Count    - Current number of elements in the list
             // Capacity - Total capacity of the list
 
             Console.WriteLine($"Count = {numbers.Count} Capacity = {numbers.Capacity}");
